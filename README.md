@@ -1,5 +1,7 @@
 [README.md](https://github.com/user-attachments/files/32077147/README.md)
-# NEXUS Games — Game Store E-commerce DBMS Project
+ # CSE311L Game Store DBMS Project NSU 
+
+A Game Store e-commerce project developed for the CSE311L Database Management Systems Lab.
 
 A complete PHP + MySQL storefront built for a Database Management Systems course.
 It is a working full-stack application, not a UI mockup: real authentication, a real
