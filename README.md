@@ -179,3 +179,8 @@ back and the customer keeps their cart.
   intentional — order history should not be destroyed by a catalogue edit.
 - Cover art is SVG so the project stays small; upload JPG or PNG covers from the admin
   panel if you prefer.
+
+  ## Screenshot of the project
+
+  <img width="1707" height="905" alt="Screenshot 2026-09-11 030442" src="https://github.com/user-attachments/assets/c9f907c1-be71-4480-8125-c1c785895bd0" />
+
