@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="SHADOW PROTOCOL cover art">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/><stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="45%" stop-color="#05060c" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#05060c" stop-opacity="0.94"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <rect width="600" height="800" fill="url(#grid)"/>
+  <circle cx="471" cy="399" r="122" fill="#35d6ff" fill-opacity="0.07"/>
+  <circle cx="259" cy="131" r="55" fill="#35d6ff" fill-opacity="0.05"/>
+  <circle cx="446" cy="160" r="122" fill="#35d6ff" fill-opacity="0.07"/>
+  <circle cx="295" cy="145" r="95" fill="#35d6ff" fill-opacity="0.05"/>
+  <circle cx="530" cy="211" r="141" fill="#35d6ff" fill-opacity="0.09"/>
+  <path d="M564 79 L835 69" stroke="#35d6ff" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+  <path d="M382 516 L659 572" stroke="#35d6ff" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+  <path d="M16 344 L141 216" stroke="#35d6ff" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+  <rect width="600" height="800" fill="url(#fade)"/>
+  <rect x="46" y="512" width="104" height="26" rx="13" fill="#35d6ff" fill-opacity="0.18" stroke="#35d6ff" stroke-opacity="0.55"/>
+  <text x="60" y="530" font-family="Verdana,DejaVu Sans,sans-serif" font-size="13" letter-spacing="2.5" fill="#35d6ff">STEALTH</text>
+  <text x="46" y="608" font-family="Verdana,DejaVu Sans,sans-serif" font-size="46" font-weight="bold" fill="#ffffff" letter-spacing="1">SHADOW</text>
+  <text x="46" y="660" font-family="Verdana,DejaVu Sans,sans-serif" font-size="46" font-weight="bold" fill="#ffffff" letter-spacing="1">PROTOCOL</text>
+  <rect x="46" y="700" width="72" height="4" rx="2" fill="#35d6ff"/>
+</svg>

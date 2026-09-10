@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="ECHOES OF VARDUN cover art">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#581c87"/><stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="45%" stop-color="#05060c" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#05060c" stop-opacity="0.94"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <rect width="600" height="800" fill="url(#grid)"/>
+  <circle cx="139" cy="200" r="93" fill="#a855ff" fill-opacity="0.05"/>
+  <circle cx="459" cy="389" r="94" fill="#a855ff" fill-opacity="0.07"/>
+  <circle cx="537" cy="219" r="143" fill="#a855ff" fill-opacity="0.07"/>
+  <circle cx="211" cy="99" r="55" fill="#a855ff" fill-opacity="0.09"/>
+  <circle cx="493" cy="235" r="74" fill="#a855ff" fill-opacity="0.05"/>
+  <path d="M73 326 L203 246" stroke="#a855ff" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+  <path d="M60 257 L312 416" stroke="#a855ff" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+  <path d="M274 520 L483 632" stroke="#a855ff" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+  <rect width="600" height="800" fill="url(#fade)"/>
+  <rect x="46" y="512" width="157" height="26" rx="13" fill="#a855ff" fill-opacity="0.18" stroke="#a855ff" stroke-opacity="0.55"/>
+  <text x="60" y="530" font-family="Verdana,DejaVu Sans,sans-serif" font-size="13" letter-spacing="2.5" fill="#a855ff">METROIDVANIA</text>
+  <text x="46" y="608" font-family="Verdana,DejaVu Sans,sans-serif" font-size="46" font-weight="bold" fill="#ffffff" letter-spacing="1">ECHOES OF</text>
+  <text x="46" y="660" font-family="Verdana,DejaVu Sans,sans-serif" font-size="46" font-weight="bold" fill="#ffffff" letter-spacing="1">VARDUN</text>
+  <rect x="46" y="700" width="72" height="4" rx="2" fill="#a855ff"/>
+</svg>

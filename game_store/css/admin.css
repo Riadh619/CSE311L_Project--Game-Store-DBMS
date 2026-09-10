@@ -1,0 +1,65 @@
+/* =====================================================================
+   FILE: css/admin.css - admin panel layout, loaded after style.css
+   ===================================================================== */
+
+.admin-body { display: grid; grid-template-columns: 244px 1fr; min-height: 100vh; }
+
+.admin-side {
+    background: var(--bg-soft); border-right: 1px solid var(--line);
+    padding: 22px 16px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+}
+.admin-side .brand { margin-bottom: 26px; }
+.admin-side h5 {
+    font-size: .7rem; text-transform: uppercase; letter-spacing: .14em;
+    color: var(--text-faint); margin: 20px 0 8px 10px;
+}
+.admin-side a.nav-link {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 12px; border-radius: var(--radius-sm);
+    font-size: .91rem; color: var(--text-dim); margin-bottom: 2px;
+    transition: background .18s var(--ease), color .18s var(--ease), transform .18s var(--ease);
+}
+.admin-side a.nav-link:hover { background: rgba(255,255,255,.05); color: var(--text); transform: translateX(3px); }
+.admin-side a.nav-link.active {
+    background: rgba(78,245,138,.11); color: var(--green);
+    box-shadow: inset 2px 0 0 var(--green);
+}
+.admin-side .nav-glyph { width: 18px; text-align: center; }
+
+.admin-main { padding: 0 0 60px; min-width: 0; }
+
+.admin-top {
+    position: sticky; top: 0; z-index: 30;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 16px 30px; background: rgba(7,8,15,.85); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line); flex-wrap: wrap;
+}
+.admin-top h1 { font-size: 1.35rem; }
+.admin-top .who { font-size: .85rem; color: var(--text-faint); }
+
+.admin-inner { padding: 26px 30px 0; }
+
+.admin-toolbar {
+    display: flex; gap: 12px; align-items: center; justify-content: space-between;
+    margin-bottom: 18px; flex-wrap: wrap;
+}
+.admin-search { display: flex; gap: 8px; }
+.admin-search .input { width: 260px; }
+
+.thumb { width: 42px; height: 56px; object-fit: cover; border-radius: 6px; }
+
+.inline-form { display: inline-flex; gap: 6px; align-items: center; }
+
+.tab-row { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
+
+@media (max-width: 900px) {
+    .admin-body { grid-template-columns: 1fr; }
+    .admin-side {
+        position: static; height: auto; display: flex; flex-wrap: wrap;
+        gap: 6px; align-items: center; padding: 14px;
+    }
+    .admin-side .brand { margin: 0 12px 0 0; }
+    .admin-side h5 { display: none; }
+    .admin-side a.nav-link { margin: 0; padding: 8px 11px; font-size: .85rem; }
+    .admin-inner, .admin-top { padding-inline: 16px; }
+}
